@@ -48,12 +48,25 @@ def add_planet(img):# функція додає противників в спи
        ufo = main(random.randint(10,W-30),y,70,70,img)
        planet_list.append(ufo)# створення обєкту противника та додавання в список
 
-def add_planetr(img):# функція додає противників в список через створення обєкту
-    y =19
-    for el in range(5):
-       ufo = main(random.randint(10,W-30),y,70,70,img)
-       planet_list.append(ufo)# створення обєкту противника та додавання в список
-
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
+print('багато якогось коду')
 
 add_planet('planet.png')
 list_enemy = add('asteroid.png')# створюю список астероїдів
@@ -214,6 +227,9 @@ while run:
                         j.rect.y, j.rect.x = el.rect.x, el.rect.y
     fps.tick(70)
     pygame.display.update()
+
+
+
 
 
 
